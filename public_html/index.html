@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Benison Business Co.,Ltd.</title>
+		<link rel="shortcut icon" href="FacSystem/icon.png" type="image/png">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+        <link rel="stylesheet" href="assets/css/option.css">
+        <link rel="stylesheet" href="assets/css/Navbar.css">
+        <style>
+            video { 
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                min-width: 100%;
+                min-height: 100%;
+                z-index: -100;
+                transform: translateX(-50%) translateY(-50%);
+                background-size: cover;
+                transition: 1s opacity;
+                opacity: 1;
+            }
+            i {
+                padding:10px;
+                font-size: 100px;
+                margin:0px 5px;
+                color :white;
+            }
+            h4 {
+                color: rgb(250,250,0);
+            }
+            h2{
+                text-align: center;
+                margin: 0px;
+                padding-bottom: 20px;
+            }
+            
+            .container{
+                padding: 60px 0px;
+            }
+            .text-primary{
+                text-align: center; 
+            }
+            @media screen and (max-width: 768px) {
+                body{
+              background-image: url('assets/img/bg-product.JPG');
+              background-size:cover;
+              height: 970px;   
+              background-position: center;
+              background-position-y: 60px;
+                }
+                video {
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    min-width: 0%;
+                    min-height: 0%;
+                    z-index: -100;
+                    transform: translateX(-50%) translateY(-50%);
+                    background-size: cover;
+                    transition: 1s opacity;
+                    opacity: 0;
+                      }
+                      .show:active{
+                          nav div .container{
+                              margin-top: 30%;
+                          }
+                      }                    
+            }
+        </style>
+    </head>
+    <body>
+        <video loop autoplay muted>
+            <source src="Factory.mp4" type="video/mp4">
+        </video> 
+        <nav class="navbar fixed-top navbar-light navbar-expand-lg clean-navbar" style="background-color:#28a745;height:60px;box-shadow:0px 0px 30px 2px rgb(21,89,37)">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="assets/img/logo.jpg" style="margin-top:80px;height:150px;box-shadow:0px 0px 10px 0.5px rgb(100,100,100)">
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1" style="background-color:#ffffff;">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="sr-only">Toggle navigation</span>
+                </button>
+                <div class="collapse navbar-collapse" id="navcol-1" style="background-color:#28a745;padding: 5px;">
+                    <ul class="nav navbar-nav ml-auto">
+                        
+                        <li class="nav-item" data-toggle="collapse" data-target="#navcol-1">
+                            <a class="nav-link" id="nav-link" href="#home"><strong>Home</strong></a></li>
+                        <li class="nav-item" data-toggle="collapse" data-target="#navcol-1">
+                            <a class="nav-link" id="nav-link" href="#service"><strong>Services</strong></a></li>
+                        <li class="nav-item" data-toggle="collapse" data-target="#navcol-1">
+                            <a class="nav-link" id="nav-link" href="#about"><strong>About</strong></a></li>
+                        <li class="dropdown" id="dropdownshow" style="padding:0px 32px 0px 0px;">
+                            <a class="dropdown nav-link " id="nav-link" data-toggle="dropdown" aria-expanded="false" href="#product"><strong>Product</strong></a>
+                            <div class="dropdown-menu" id="dropdownshow">
+                                <a class="dropdown-item text-success" id="dropdown-item" href="pd1Sealand.html">
+                                    <strong>SEALANT</strong>
+                                </a>
+                                <a class="dropdown-item text-success" id="dropdown-item" href="pd2Adhesive.html">
+                                    <strong>ADHESIVE</strong>
+                                </a>
+                                <a class="dropdown-item text-success" id="dropdown-item" href="pd3SlimDuct.html">
+                                    <strong>SLIM DUCT</strong>
+                                </a>
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item" data-toggle="collapse" data-target="#navcol-1">
+                            <a class="nav-link " id="nav-link" href="#brands"><strong>Brands</strong></a>
+                        </li>
+                        <li class="nav-item" data-toggle="collapse" data-target="#navcol-1">
+                            <a class="nav-link " id="nav-link" href="#contact"><strong>Contact</strong></a>
+                        <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1" style="background-color:#ffffff;margin: 15px 0px;">
+                                <span class="float-center"><strong>X</strong></span>
+                        </button>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="myDiv" id="home">
+            <section class="clean-block clean-hero" style="color:transparent;height:940px;min-height:auto;">
+                <div class="text-white">
+                    <h1><strong>LEADERS IN QUALITY&nbsp;<br>SEALANT , ADHESIVE&nbsp;<br>AND<br> SLIM DUCT SYSTEM<br></strong>
+                        <a href="#service">
+                            <i class="fa fa-chevron-down float-center"></i>
+                        </a>
+                    </h1>
+                </div>
+            </section>
+            <section id="service" style="background-color:rgb(255,255,255);padding:20px 0px;">
+                <div class="container">
+                        <h1 class="header"><strong>SERVICE</strong><br></h1>
+                    <div class="row" style="margin:0px 0px;">
+                        <div class="col-sm-8 col-md-6 col-lg-4 offset-sm-2 offset-md-3 offset-lg-0">
+                            <div class="card" style="background-color:rgb(255,255,255);">
+                                <img class="card-img-top w-100 d-block d-sm-inline-block" src="assets/img/Ware.JPG" style="height:231px;">
+                                <div class="card-body" style="max-height:230px;background-color:#28a745;">
+                                    <h4 class="card-title" style="color:rgb(255,255,255);">
+                                        <strong>Original Equipment Manufacture</strong><br></h4>
+                                    <p class="card-text" style="color:rgb(255,255,255);font-size:13px;">
+                                        If your business is selling sealants, adhesives, Benison Business can be your manufacturing powerhouse for delivering your private label. Benison Business despatches millions of canisters, cartridges, cans of silicone, acrylics and packaging types.<br></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-md-6 col-lg-4 offset-sm-2 offset-md-3 offset-lg-0">
+                            <div class="card">
+                                <img class="card-img-top w-100 d-block" src="assets/img/service2.jpg" style="height:231px;">
+                                <div class="card-body" style="max-height:300px;background-color:#28a745;">
+                                    <h4 class="card-title" style="color:rgb(255,255,255);"><strong>Domestics<br>Transportation</strong><br></h4>
+                                    <p class="card-text" style="color:rgb(255,255,255);">Benison Business Co., Ltd.&nbsp;has&nbsp;an expertise in the transportation routes and the handling. Full truck loads are appropriate for customers who want to transport large volumes of products to the destination in a
+                                        short amount of time.<br></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-md-6 col-lg-4 offset-sm-2 offset-md-3 offset-lg-0">
+                            <div class="card">
+                                <img class="card-img-top w-100 d-block" src="assets/img/Technical.jpg" style="height:231px;">
+                                <div class="card-body" style="hmax-height:230px;background-color:#28a745;">
+                                    <h4 class="card-title" style="color:rgb(255,255,255);"><strong>Technical <br>Product Support</strong><br></h4>
+                                    <p class="card-text" style="color:rgb(255,255,255);">Our expertise and leadership in silicon-based materials are behind every product, service, and solution we offer. Use our tools, tips, and people to help solve your problems.<br></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <article id="about"> 
+                <section  class="col-lg-6 offset-lg-0" style="background-color:rgb(220,220,220);padding:30px 0px;">
+                    <div class="container-fluid" style="padding:30px 15px;">
+                        <div class="row" style="margin:0px 0px;">
+                            <div class="col-sm-8 col-md-6 col-lg-12 col-xl-7 offset-sm-2 offset-md-3 offset-lg-0 offset-xl-5 text-center">
+                                <h1 class="text-right header" style="padding:20px 0px 20px 0px;">
+                                    <strong>ABOUT</strong></h1>
+                                <h2 class="text-right "><strong>Company History</strong></h2>
+                                <p class="text-justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                	Benison Business Company Limited was founded in 1989 and has since
+                                been providing world - class adhesives and sealants of the finest quality to the
+                                market. First starting within the woodworking industry with our Cyano-Acrylate
+                                and Hotmelt products, we have expanded our product range to include silicones,
+                                acrylics and hybrid sealants, establishing our BRAVO&#153; brand as a market leader
+                                in the industry. Over the years, we have built up an excellent knowledge base in
+                                both developing and manufacturing, constantly investing in our state-of-the-art
+                                facilities to meet the growing needs of our customers. Along with our own production,
+                                Benison also has close relationships with many reputable firms across Asia and
+                                Europe, becoming the authorized distributor for many and forming long lasting
+                                partnerships. <br><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        In 1993, Benison Corporation was formed, leading to the establishment
+                                of Benison Group as the parent company of both Benison Business and Benison
+                                Corporation. With our main focus on providing better accessories and components
+                                for the evergrowing air-conditioning industry, we brought our MOMO&#153; Air-
+                                Conditioning Trunking System to the market. Our manufacturing expertise and
+                                aim to provide products of the best quality products to our customers have
+                                encouraged us to invest in cutting-edge plastic extrusion and injection molding
+                                facilities as well as plastic compounding technologies, allowing us to start right
+                                from the upstream of plastic manufacturing. <br><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        One mission of ours that can’t be overlooked is our ambition to be
+                                socially responsible. We aim to be eco-friendly by not polluting the environment
+                                and creating as little waste as possible. We are constantly working to find
+                                improvements in our processes to ensure a better future for the world we live in. <br><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        Finally, we would like to say thank you to our customers for supporting
+                                us. With our desire and commitment to succeed, we will always be looking for
+                                better solutions for the market and will continue to strive to meet the needs of
+                                our customers and provide the best products they deserve.
+                                </p>
+                                <h1><strong>BEYOND QUALITY</strong><br></h1>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <section id="product" style="background-color:rgb(40,167,69);padding:20px 0px;">
+                <div class="container">
+                    <div class="block-heading" >
+                        <h1 class="text-white header"><strong>PRODUCT</strong><br></h1>
+                    </div>
+                    <div class="row" style="margin:0px 0px;">
+                        <div class="col-sm-8 col-md-6 col-lg-4 offset-sm-2 offset-md-3 offset-lg-0">
+                            <div class="block-heading text-center" style="padding:0px;">
+                                <a href="pd1Sealand.html">
+                                    <img src="assets/img/Pic-Icon/Icon-1.png" 
+                                    onmouseover="this.src='assets/img/Pic-Icon/Icon-1-Ho.png'"
+                                    onmouseout="this.src='assets/img/Pic-Icon/Icon-1.png'"
+                                    border="0" alt=""/>
+                                </a>
+                                <h4 style="padding:10px;letter-spacing:1px;">
+                                    <strong>SEALANT</strong><br></h4>
+                                <div class="row" style="width:auto;">
+                                    <div class="col" style="padding:5px;width:315px;">
+                                        <a href="pd1Sealand.html" style="color:rgb(255,255,255);">SILICONE SEALANT<br></a>
+                                    </div>
+                                </div>
+                                <div class="row" style="width:auto;">
+                                    <div class="col" style="padding:5px;width:315px;">
+                                        <a href="pd1Sealand.html#acid" style="color:rgb(255,255,255);">ACID CURING<br>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row" style="width:auto;">
+                                    <div class="col" style="padding:5px;width:315px;">
+                                        <a href="pd1Sealand.html#neutral" style="color:rgb(255,255,255);">NEUTRAL CURING<br>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row" style="width:auto;">
+                                    <div class="col" style="padding:5px;width:315px;">
+                                        <a href="pd1Sealand.html#acrylic" style="color:rgb(255,255,255);">ACRYLIC SEALANT<br>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-md-6 col-lg-4 offset-sm-2 offset-md-3 offset-lg-0">
+                            <div class="block-heading text-center" style="padding:0px;">                            
+                                <a href="pd2Adhesive.html">
+                                    <img src="assets/img/Pic-Icon/Icon-2.png" 
+                                    onmouseover="this.src='assets/img/Pic-Icon/Icon-2-Ho.png'"
+                                    onmouseout="this.src='assets/img/Pic-Icon/Icon-2.png'"
+                                    border="0" alt=""/>
+                                </a>
+                                <h4 style="padding:10px;letter-spacing:1px;"><strong>ADHESIVE</strong><br></h4>
+                                <div class="row" style="width:auto;">
+                                    <div class="col" style="padding:5px;width:315px;">
+                                        <a href="pd2Adhesive.html#cyano" style="color:rgb(255,255,255);">CYANOACRYLATE ADHESIVE<br></a>
+                                    </div>
+                                </div>
+                                <div class="row" style="width:auto;">
+                                    <div class="col" style="padding:5px;width:315px;">
+                                        <a href="pd2Adhesive.html#hotmelt" style="color:rgb(255,255,255);">HOT MELT ADHESIVE<br></a>
+                                    </div>
+                                </div>
+                                <div class="row" style="width:auto;">
+                                    <div class="col" style="padding:5px;width:315px;">
+                                        <a href="pd2Adhesive.html#epoxy" style="color:rgb(255,255,255);">EPOXY ADHESIVE<br></a>
+                                    </div>
+                                </div>
+                                <div class="row" style="width:auto;">
+                                    <div class="col" style="padding:5px;width:315px;">
+                                        <a href="pd2Adhesive.html#contruction" style="color:rgb(255,255,255);">CONSTRUCTION ADHESIVE<br></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-md-6 col-lg-4 offset-sm-2 offset-md-3 offset-lg-0">
+                            <div class="block-heading text-center" style="padding:0px;">
+                                <a href="pd3SlimDuct.html">
+                                    <img src="assets/img/Pic-Icon/Icon-3.png" 
+                                    onmouseover="this.src='assets/img/Pic-Icon/Icon-3-Ho.png'"
+                                    onmouseout="this.src='assets/img/Pic-Icon/Icon-3.png'"
+                                    border="0" alt=""/>
+                                </a>
+                                <h4 style="padding:10px;letter-spacing:1px;">
+                                    <strong>SLIM DUCT SYSTEM</strong><br></h4>
+                                <div class="row" style="width:auto;">
+                                    <div class="col" style="padding:5px;width:315px;"><a href="pd3SlimDuct.html#slimduct" style="color:rgb(255,255,255);">SLIM DUCT<br></a></div>
+                                    <div class="col" style="padding:5px;width:315px;"><a href="pd3SlimDuct.html#slimcorner" style="color:rgb(255,255,255);">SLIM CORNER<br></a></div>
+                                </div>
+                                <div class="row" style="width:auto;">
+                                    <div class="col" style="padding:5px;width:315px;"><a href="pd3SlimDuct.html#slimjoint" style="color:rgb(255,255,255);">SLIM JOINT<br></a></div>
+                                    <div class="col" style="padding:5px;width:315px;"><a href="pd3SlimDuct.html#slimendcap" style="color:rgb(255,255,255);">SLIM END CAP<br></a></div>
+                                </div>
+                                <div class="row" style="width:auto;">
+                                    <div class="col align-self-sm-center" style="padding:5px;width:315px;"><a href="pd3SlimDuct.html#freecorner" style="color:rgb(255,255,255);">FREE CORNER<br></a></div>
+                                    <div class="col" style="padding:5px;width:315px;"><a href="pd3SlimDuct.html#slimendcover" style="color:rgb(255,255,255);">SLIM END COVER<br></a></div>
+                                </div>
+                                <div class="row" style="width:auto;">
+                                    <div class="col align-self-sm-center" style="padding:5px;width:315px;"><a href="pd3SlimDuct.html#wallcorner" style="color:rgb(255,255,255);">WALL CORNER<br></a></div>
+                                    <div class="col" style="padding:5px;width:315px;"><a href="pd3SlimDuct.html#slimcrosscover" style="color:rgb(255,255,255);">SLIM CROSS COVER<br></a></div>
+                                </div>
+                                <div class="row" style="width:auto;">
+                                    <div class="col" style="padding:5px;width:315px;"><a href="pd3SlimDuct.html#slimcornerraising" style="color:rgb(255,255,255);">SLIM CORNER RAISING<br></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="brands"style="background-color:rgb(220,220,220);padding:20px 0px;">
+                <div class="container">
+                    <div class="block-heading">
+                        <h1 class="header"><strong>BRANDS</strong><br></h1>
+                    </div>
+                    <div class="row" style="margin:0px 0px;">
+                    <div class="col-4 col-lg-2 col-xl-2 offset-3 offset-lg-4 offset-xl-4">
+                        <a href="pd1Sealant.html" class="img-hover">
+                            <img src="assets/img/brand/Bravo.png" style="width:100%;margin:30px 0px;">
+                        </a>
+                    </div>
+                    <div class="col-4 col-lg-2  offset-lg-0 offset-xl-0" style="padding:0px 15px;">
+                        <a href="pd2Adhesive.html" class="img-hover">
+                           <img src="assets/img/brand/Bix-7.png" style="width:100%;margin:35px 0px;"> 
+                        </a>
+                    </div>
+                    
+                    <div class="col-4 col-lg-2 offset-sm-1 offset-md-0 offset-lg-3 " style="padding:0px 15px;">
+                        <a href="pd3Slimduct.html" class="img-hover">
+                            <img src="assets/img/brand/Denko.png" style="width:100%;margin:35px 0px;">
+                        </a>
+                    </div>
+                    <div class="col-4 col-lg-2 offset-sm-0   offset-xl-0" style="padding:0px 15px;">
+                        <a href="pd3Slimduct.html#momo" class="img-hover">
+                            <img src="assets/img/brand/Momo.png" style="width:100%;margin:40px 0px;">
+                        </a>
+                    </div>
+                    <div class="col-4 col-lg-2 col-xl-2  offset-lg-0 offset-xl-0" style="padding:0px 15px;">
+                        <a href="pd3Slimduct.html#haru" class="img-hover">
+                            <img src="assets/img/brand/Haru.png" style="width:100%;margin:40px 0px;">
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" style="background-color:rgb(255,255,255);padding:20px 0px;">
+                <div class="container">
+                    <div class="block-heading" >
+                        <h1 class="header" id="contact"><strong>CONTACT</strong><br></h1>
+                    </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15504.707313374307!2d100.5101227!3d13.7077378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a624f8644bb3179!2z4LmA4Lia4LiZ4LiZ4Li04Liq4Lix4LiZIOC4muC4tOC4quC4i-C4tOC5gOC4meC4qg!5e0!3m2!1sth!2sth!4v1533106978617" style="border:0;width:100%;height:500px;margin: 20px 0px;padding:0px 20px;" allowfullscreen ></iframe>
+                        <div class="row" style="margin:0px 0px;">
+                            <div class="col-sm-12 col-md-6 col-lg-6 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-0" style="padding:0px 1   5px;">
+                                <h2 class="text-left header">
+                                    <strong>Inquiries</strong>
+                                </h2>
+                                <p class="text-left" style="padding:5px 0px;width:auto;min-width:auto;max-width:none;letter-spacing:1px;">
+                                    For any inquiries, questions ot commendations, please call : +66(0)2-212-4455&nbsp;or fill out the following from.&nbsp;<br>
+                                </p>
+                                <div class="form-group text-right" style="width:100%;">
+                                    <input type="text" placeholder="Name" style="width:100%;padding:5px 0px;margin:5px 0px;">
+                                    <input type="email" placeholder="Email" style="width:100%;margin:5px 0px;padding:5px 0px;">
+                                    <input type="text" placeholder="Subject" style="width:100%;margin:5px 0px;padding:5px 0px;">
+                                    <textarea placeholder="Message" style="width:100%;margin:5px 0px;padding:5px 0px;"></textarea>
+                                    <form action="mailto:info@benisonbusiness.co.th" method="post" enctype="text/plain">
+                                    <button class="btn btn-success float-right" type="submit">Send</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 offset-sm-0 offset-md-0 offset-lg-0 offset-xl-0" style="padding:0px 15px;">
+                                <h2 class="text-left header">
+                                    <strong>Head Office</strong></h2>
+                                <p class="text-left" style="padding:5px 0px;width:auto;min-width:auto;max-width:none;letter-spacing:0.5px;">
+                                    <strong>Benison Business Company Limited</strong><br>
+                                    2009/9-10 &nbsp; Charoenkrung &nbsp;77,&nbsp;Charoenkrung &nbsp;Road,&nbsp; WatPrayakrai,&nbsp; Bangkorleam,&nbsp; Bangkok,&nbsp; Thailand.&nbsp; 10120.<br>
+                                    TEL : +66(0)2-212-4455&nbsp;<br>
+                                    FAX :&nbsp;+66(0)2-213-0022<br>
+                                    E-mail : info@benisonbusiness.co.th<br><br>
+                                    <strong>Employment</strong><br>
+                                    to apply for a job with Sphere Constuctions, please send a cover letter together with your C.V. to : info@benisonbusiness.co.th<br> 
+                                </p>
+                                <a href="job.html"><p class="text-left">Join Us</p></a>
+                                <div>
+                                <a href="https://th-th.facebook.com/pages/category/Chemical-Company/Benison-Business-Co-Ltd-234515826599829/" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-youtube"></a>
+                                <a href="#" class="fa fa-instagram"></a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+			
+            </main>
+			
+        <footer>
+            <div class="footer-copyright">
+                <p class="text-center">Benison Business Co.,Ltd.&nbsp;<br>© 2018 Copyright&nbsp;
+					
+				</p>
+            </div>
+			
+        </footer>
+		
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+            <script src="assets/js/script.min.js"></script>
+            <script>
+                $(document).ready(function () {
+
+                    $("nav a , i").on('click', function (event) {
+                        if (this.hash !== "") {
+                            event.preventDefault();
+
+                            var hash = this.hash;
+
+                            $('html, body').animate({
+                                scrollTop: $(hash).offset().top
+                            }, 900, function () {
+
+                                window.location.hash = hash;
+                            });
+                        }
+                    });
+
+                    $(window).scroll(function () {
+                        $(".slideanim").each(function () {
+                            var pos = $(this).offset().top;
+
+                            var winTop = $(window).scrollTop();
+                            if (pos < winTop + 600) {
+                                $(this).addClass("slide");
+                            }
+                        });
+                    });
+                })
+            </script>
+            
+            <!-- jQuery library -->
+            <script src="jquery-3.1.1.min.js"></script>
+            <!-- bxSlider Javascript file -->
+            <script src="jquery.bxslider.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $('.bxslider').bxSlider({
+                        mode: 'horizontal',
+                        moveSlides: 1,
+                        slideMargin: 10,
+                        infiniteLoop: true,
+                        slideWidth: 660,
+                        slideHeight: 1000,
+                        minSlides: 7,
+                        maxSlides: 7,
+                        speed: 800,
+                    });
+                });
+            </script>
+            </body>
+            </html>

@@ -1,0 +1,86 @@
+.collapse navbar-collapse{
+	height:50px;
+	padding:10px;
+	padding-top:10px;
+	background-color:#28a745;
+}
+
+.navbar{
+	background-color:#28a745;
+	height:80px;
+	box-shadow:0px 20px 70px 2px rgb(21,89,37);
+}
+
+h1{
+	margin-top:0px;
+	padding-top:0px;
+	line-height: 80px;
+	letter-spacing: 0px;
+        font-size: 3.3em;
+        float:  center;
+}
+
+.myDiv{
+   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC) repeat;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+.fa fa-chevron-down i:hover {
+	color:black;
+}
+
+/*Function การเปลี่ยนสีของปุ่ม Social ที่ Section Contact */
+.fa {
+  padding:10px;
+  font-size: 20px;
+  width: 40px;
+  height:40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 18px 2px;
+}
+.fa-facebook {
+  background:black;
+  color: white;
+}
+.fa-facebook:hover {
+  color: white;
+  background: #3B5998;
+}
+.fa-youtube {
+  background:black;
+  color: white;
+}
+.fa-youtube:hover {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background:black;
+  color: white;
+}
+.fa-instagram:hover {
+  background-color: rgb(255,0,128);
+  color: white;
+}
+
+/*เมื่อ Hover ที่รูปภาพใน Section.Brand จะเปลี่ยนสีจาก grey 100% เป็น สีรูปภาพแปปปกติ*/
+.img-hover{
+    filter: grayscale(100%);
+}
+.img-hover:hover{
+    filter: grayscale(0%);
+}
+
+footer .footer-copyright{padding:0px;}
+footer .footer-copyright p{background-color:#28a745;margin:0px;color:window;padding:10px;}
+
+.header{color:#28a745;text-align:center;padding-bottom:20px;}
+
+#nav-link:hover{color: rgb(250,250,0);}
+#dropdownshow:hover .dropdown-menu{display: block;}
+.productsection{margin-bottom:80px;}

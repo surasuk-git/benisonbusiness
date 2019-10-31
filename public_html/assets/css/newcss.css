@@ -1,0 +1,60 @@
+.logo1
+{
+    max-height: 150px;
+    max-width: 300px;
+    margin-top: -20px;
+    margin-left: -13px;
+    padding-left: -15px;
+}
+.logoMomo
+{
+    max-height: 150px;
+    max-width: 300px;
+    margin-top: -20px;
+    margin-left: -30px;
+    padding-left: -15px;
+    margin-bottom: -30px;
+}
+.footer-edit {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.fa {
+  padding:10px;
+  font-size: 20px;
+  width: 40px;
+  height:40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 18px 2px;
+}
+
+.fa-facebook {
+  background:black;
+  color: white;
+}
+.fa-facebook:hover {
+  color: white;
+  background: #3B5998;
+}
+.fa-youtube {
+  background:black;
+  color: white;
+}
+.fa-youtube:hover {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background:black;
+  color: white;
+}
+.fa-instagram:hover {
+  background-color: rgb(255,0,128);
+  color: white;
+}
